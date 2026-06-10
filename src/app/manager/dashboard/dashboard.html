@@ -1,0 +1,24 @@
+<div class="container mt-5">
+
+  <div class="card shadow-lg p-4 text-center">
+
+    <h2 class="text-primary fw-bold">Manager Dashboard</h2>
+
+    <div class="mt-4">
+      <h5 class="text-muted">Total Pending Requests</h5>
+
+      <h1 class="display-4 fw-bold text-warning">
+        {{ totalPending }}
+      </h1>
+    </div>
+
+    <div class="mt-4">
+      <button class="btn btn-lg btn-primary"
+              [routerLink]="['/pending']">
+        View Pending Requests
+      </button>
+    </div>
+
+  </div>
+
+</div>
